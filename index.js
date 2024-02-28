@@ -4,6 +4,7 @@ require('dotenv').config();
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: true });
 
 const CONTRACT_ADDRESS = '0xDC2Db003Be75D4e2a2F1d00B9efC91c00B8D814B';
+const REF_LINK = 'https://node.oxoa.games?ref=0x3E657D3CF4cb2104E6A5a6eD6f19aE23d8869999';
 
 // Function to greet new users
 async function greetNewUser(message) {
@@ -18,6 +19,7 @@ async function greetNewUser(message) {
         greeting += `🌐 $isOxOa contract: <a href="${CONTRACT_URL}">${CONTRACT_ADDRESS}</a>\n\n`;
         greeting += `👨‍⚕️ Hỗ trợ: @NSBMDD @Scatblue\n\n`;
         greeting += `ℹ️ Link tài liệu: https://t.me/oxoavn/2941\n\n`;
+        greeting += `🤑 Mua key tại đây 👉 ${REF_LINK}\n`;
 
         const opts = {
             parse_mode: 'HTML',
