@@ -16,10 +16,10 @@ async function greetNewUser(message) {
         console.log(`${username} joined group`);
         let greeting = `<b>Chào mừng @${username} đến với cộng đồng OXOA VIỆT NAM - Team NSB 💰💰💰</b>\n\n`;
         const CONTRACT_URL = `https://explorer.zksync.io/address/${CONTRACT_ADDRESS}`
-        greeting += `🌐 $isOxOa contract: <a href="${CONTRACT_URL}">${CONTRACT_ADDRESS}</a>\n\n`;
-        greeting += `👨‍⚕️ Hỗ trợ: @NSBMDD @Scatblue\n\n`;
-        greeting += `ℹ️ Link tài liệu: https://t.me/oxoavn/2941\n\n`;
-        greeting += `🤑 Mua key tại đây 👉 ${REF_LINK}\n`;
+        greeting += `<b>🌐 $isOxOa contract 👉 <a href="${CONTRACT_URL}">xem tại đây</a></b>\n\n`;
+        greeting += `<b>👨‍⚕️ Hỗ trợ: @NSBMDD @Scatblue</b>\n\n`;
+        greeting += `<b>💻 Hướng dẫn 👉 <a href="https://t.me/oxoavn/2941">xem tại đây</a></b>\n\n`;
+        greeting += `<b>🤑 Mua key 👉 <a href="${REF_LINK}">tại đây</a></b>\n\n`;
 
         const opts = {
             parse_mode: 'HTML',
