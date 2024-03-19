@@ -17,7 +17,7 @@ async function greetNewUser(message) {
         let greeting = `<b>Chào mừng @${username} đến với cộng đồng OXOA VIỆT NAM - Team NSB 💰💰💰</b>\n\n`;
         const CONTRACT_URL = `https://explorer.zksync.io/address/${CONTRACT_ADDRESS}`
         greeting += `<b>🌐 $isOxOa contract 👉 <a href="${CONTRACT_URL}">xem tại đây</a></b>\n\n`;
-        greeting += `<b>👨‍⚕️ Hỗ trợ: @NSBMDD @Scatblue</b>\n\n`;
+        greeting += `<b>👨‍⚕️ Hỗ trợ: @trantungmmo1 @Scatblue</b>\n\n`;
         greeting += `<b>💻 Hướng dẫn 👉 <a href="https://t.me/oxoavn/2941">xem tại đây</a></b>\n\n`;
         greeting += `<b>🤑 Mua key 👉 <a href="${REF_LINK}">tại đây</a></b>\n\n`;
 
